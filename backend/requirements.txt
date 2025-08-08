@@ -1,1 +1,5 @@
-poetry install
+flask==2.3.2
+pandas>=1.5.0
+numpy==1.24.3
+requests>=2.28.0
+python-dotenv
