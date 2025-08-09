@@ -1,64 +1,72 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# THICCURRY 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Kope
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Ajmal P K -LBSCEK
+- Member 2: Fathima Basheer MTP -LBSCEK
 
 ### Project Description
-[2-3 lines about what your project does]
+A computer vision tool that analyzes curry thickness as a precise percentage (0-100%) by measuring oil separation, surface reflections, and texture density.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Ever stared at a pot of curry, spoon in hand, wondering: 'Is this thick enough?' Your guests are hungry, but your anxiety is thicker than the sauce. What if you could measure curry viscosity like a pro chef, without 10 years of cooking experience?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+A stupidly simple tool that scans your curry and spits out a thickness percentage (0-100%). No PhD in sauce physics required, just point your phone and get an instant number. Finally, settle the 'Is this gravy or soup?' debate with cold, hard data.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Python
+- Oil Slick Detector™ (HSV color masking)
+
+Glossy Surface Meter™ (pixel reflection analysis)
+
+Blob Theory™ (texture granularity scoring)
+
+- OpenCV
+- VSCode, Chatgpt, Deepseek, and some fresh air.
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Webcam
 
 ### Implementation
 For Software:
-# Installation
-[commands]
 
-# Run
-[commands]
+# Installation (one-time)
+pip install opencv-python numpy
 
-### Project Documentation
-For Software:
+# Run (live camera analysis only - no storage)
+python main.py
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+# Real-Time Curry Thickness Analyzer
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+## Features
+- 📷 Live camera analysis only (no images/videos stored)
+- ⚡ Instant thickness percentage (0-100%)
+- 🔍 Processes frames in real-time
+- 🚫 Zero storage - no data saved
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+## Usage
+1. Connect any camera (webcam/phone/IP cam)
+2. Run:
+   ```bash
+   python main.py
+# Screenshot
+
+https://github.com/user-attachments/assets/d2cfcb69-c6cf-4210-92d5-3ffce7ef31c9
+
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+A[Camera Feed] --> B[Frame Capture]
+    B --> C[Preprocessing]
 
 For Hardware:
 
@@ -81,15 +89,15 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1HiXRhOPlXaa44yNy_QWy-bVFNiOIUGLI/view?usp=sharing
+*the video explains the working of the thickness measurement of the curry using the webcam*
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
+- [Ajmal P K]: Backend
+- [Fathima Basheer MTP]: Idea
 - [Name 3]: [Specific contributions]
 
 ---
