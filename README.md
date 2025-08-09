@@ -63,6 +63,8 @@ python main.py
 
 https://github.com/user-attachments/assets/d2cfcb69-c6cf-4210-92d5-3ffce7ef31c9
 
+<img width="1236" height="919" alt="image" src="https://github.com/user-attachments/assets/68634c76-dca0-4740-833b-cef67262c735" />
+
 
 # Diagrams
 A[Camera Feed] --> B[Frame Capture]
